@@ -1,6 +1,7 @@
 
 package com.usc.UI;
 
+import java.awt.BorderLayout;
 import java.awt.Color;
 import javax.swing.*;
 
@@ -24,14 +25,18 @@ public class VentanaPrincipal extends JFrame
         this.setSize(800,600);
         this.setResizable(false);
         
+        this.setLayout(new BorderLayout());
+        
         logoTriqui = new PanelLogo();
-        this.add(logoTriqui);
+        this.add(logoTriqui, BorderLayout.NORTH);
         
         tableroTriqui = new PanelTablero();
-        this.add(tableroTriqui);
+        this.add(tableroTriqui, BorderLayout.CENTER);
         
         puntajeTriqui = new PanelPuntaje();
-        this.add(puntajeTriqui);
+        this.add(puntajeTriqui, BorderLayout.EAST);
+        
+        
         
     }
 }
