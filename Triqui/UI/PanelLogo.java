@@ -12,5 +12,6 @@ public class PanelLogo extends JPanel
         textoLogo = new JLabel();
         textoLogo.setText("aqui va el logo");
         add(textoLogo);
+        this.setBackground(Color.yellow);
     }
 }
