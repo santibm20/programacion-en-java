@@ -11,5 +11,6 @@ public class PanelTablero extends JPanel
     {
         etiquetaPrueba = new JLabel("Aqui va  el tablero");
         this.add(etiquetaPrueba);
+        this.setBackground(Color.yellow);
     }
 }
