@@ -10,5 +10,6 @@ public class PanelPuntaje extends JPanel
     {
         etiquetaPuntaje = new JLabel("Aqui va el puntaje");
         add(etiquetaPuntaje);
+        this.setBackground(Color.yellow);
     }
 }
